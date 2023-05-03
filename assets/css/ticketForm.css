@@ -13,7 +13,7 @@
     width: 100%;
 }
 .ticket__formulario{
-    padding: 3rem;
+    padding: 3rem .5rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
     margin-bottom: 1rem;
 }
@@ -28,6 +28,7 @@
 @media screen and (min-width: 768px) {
     .ticket__formulario{
         width: 80%;
+        padding: 3rem;
     }
 }
 @media screen and (min-width: 1024px) {
