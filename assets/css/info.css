@@ -1,0 +1,128 @@
+.informa__modalidad{
+    padding: 1rem;
+}
+.informa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1rem 1rem;
+    background-color: var(--background-blanco);
+}
+.informa__modalidad{
+    margin-top: 4rem;
+    text-align:  start;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--fuente-ceniza-oscuro);
+    background-color: var(--background-blanco);
+}
+.informa__remoto-container{
+    /*background-color: rgba(0, 207, 226, 0.316);
+    border: 1px solid rgb(0 208 226);/*rgb(0 208 226); /*var(--background-llamada-mobile);*/
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: rgb(85, 84, 84);
+}
+.informa__remoto{
+    padding: .5rem .1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.informa__presencial{
+    padding: .5rem .1rem .5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.informa__img{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: .1rem 1rem 0;
+}
+.informa__img__anydesk{
+    padding-top: 1rem;
+    object-fit: cover;
+    width: 50%;
+    max-width: 200px;
+    padding-bottom: 1rem;
+    display: block;
+
+}
+.informa__img__team{
+    object-fit: cover;
+    width: 50%;
+    max-width: 200px;
+    display: block;
+    
+}
+.informa__texto{
+    padding: .5rem .1rem;
+    line-height: normal;
+}
+.informa__boton{
+    padding-top:0;
+}
+.informa__img__Sancris{
+
+    padding: 1.5rem 1rem 0;
+    object-fit: cover;
+    width: 50%;
+    max-width: 200px;
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .informa__img{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .informa__img__team{
+        padding-right: 3rem;
+    }
+    .informa__boton{
+        width: 50%;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    .informa{
+        display: flex;
+        flex-direction: row;
+    }
+    .informa__remoto-container{
+        width: 73%;
+    }
+    .informa__img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 20%;
+        text-align: center;
+        border: 1rem violet;
+        border-radius: solid 1px;
+    }
+    .informa__img__anydesk{
+        width: 100%;
+    
+    }
+    .informa__img__team{
+        width: 100%;
+        padding-right: 0;
+    }
+    .informa__img__Sancris{
+        width: 100%;
+    }
+
+}

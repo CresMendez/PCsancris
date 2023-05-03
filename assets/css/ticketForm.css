@@ -1,0 +1,37 @@
+.ticket{
+    margin-top: 1rem;
+}
+.ticket__titulo{
+    color: var(--fuente-ceniza-oscuro);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 2rem 2rem 0;
+}
+.ticket__formulario{
+    margin: 0 auto;
+    width: 100%;
+}
+.ticket__formulario{
+    padding: 3rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    margin-bottom: 1rem;
+}
+.ticket__descripcion{
+    color: var(--fuente-ceniza-oscuro);
+    text-align: justify;
+    padding: 2rem 1rem 3rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+    .ticket__formulario{
+        width: 80%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .ticket__formulario{
+        width: 50%;
+    }
+}
