@@ -9,6 +9,7 @@
     --background-ceniza-claro: #fcfad9;
     --background-ceniza-medio: #D9D9D9;
     --background--color-logo1:rgba(5, 147, 160, 0.795);
+    --background--color-logo2:rgb(5, 147, 160);
 
     --border-cabecera-mobile: #103D4A;
     --background-negro: rgb(9 0 82);
@@ -30,9 +31,15 @@
     --montserrat: 'Montserrat', sans-serif;
     --open-sans: 'Open Sans', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: var(--open-sans);
+    background-image: url(../img/fondoweb3.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .container{
     padding-right: 6%;

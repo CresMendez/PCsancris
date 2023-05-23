@@ -1,0 +1,32 @@
+.politica__container{
+    background-color: rgb(207, 205, 205);
+}
+.politica__principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+.politica__principal .politica__titulo{
+    font-weight: 700;
+    padding: 3rem;
+    line-height: 15px;
+    font-size: 1.5rem;
+}
+.politica__principales{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.politica__titulo{
+    font-weight: 700;
+    padding: 1rem;
+    line-height: 15px;
+    font-size: 1rem;
+}
+.politica__descripcion{
+    padding: .2rem 1rem 1.5rem;
+    line-height: 20px;
+    font-size: 1rem;
+    text-align: justify;
+}

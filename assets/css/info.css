@@ -1,5 +1,5 @@
 .informa__modalidad{
-    padding: 1rem;
+    padding: 3rem 0 0 3rem;
 }
 .informa {
     display: flex;
@@ -9,7 +9,7 @@
     background-color: var(--background-blanco);
 }
 .informa__modalidad{
-    margin-top: 4rem;
+    
     text-align:  start;
     font-weight: 700;
     font-size: 2rem;
